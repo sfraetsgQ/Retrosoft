@@ -21,4 +21,4 @@ Name: "{group}\Retrosoft Navigateur"; Filename: "{app}\retrosoft_navigateur.py"
 Name: "{group}\Mettre à jour Retrosoft"; Filename: "{app}\update_retrosoft.py"
 
 [Run]
-Filename: "{app}\retrosoft_navigateur.py"; Description: "Lancer Retrosoft Navigateur"; Flags: postinstall skipifsilent
+Filename: "python.exe"; Parameters: "{app}\retrosoft_navigateur.py"; Description: "Lancer Retrosoft Navigateur"; Flags: postinstall skipifsilent
