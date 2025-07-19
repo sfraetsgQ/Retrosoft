@@ -10,7 +10,7 @@ OutputDir=.
 OutputBaseFilename=RetrosoftNavigateurSetup
 Compression=lzma
 SolidCompression=yes
-SetupIconFile=retrosoft_icon_firefox_styled.ico
+SetupIconFile=.\retrosoft_icon_firefox_styled.ico
 
 [Files]
 Source: "retrosoft_navigateur.py"; DestDir: "{app}"; Flags: ignoreversion
